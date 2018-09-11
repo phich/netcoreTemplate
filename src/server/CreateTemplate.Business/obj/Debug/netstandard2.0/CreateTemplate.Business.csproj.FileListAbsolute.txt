@@ -1,0 +1,14 @@
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\bin\Debug\netstandard2.0\CreateTemplate.Business.deps.json
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\bin\Debug\netstandard2.0\CreateTemplate.Business.dll
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\bin\Debug\netstandard2.0\CreateTemplate.Business.pdb
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\bin\Debug\netstandard2.0\CreateTemplate.Core.dll
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\bin\Debug\netstandard2.0\CreateTemplate.Data.dll
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\bin\Debug\netstandard2.0\CreateTemplate.Core.pdb
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\bin\Debug\netstandard2.0\CreateTemplate.Data.pdb
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\obj\Debug\netstandard2.0\CreateTemplate.Business.csprojAssemblyReference.cache
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\obj\Debug\netstandard2.0\CreateTemplate.Business.csproj.CoreCompileInputs.cache
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\obj\Debug\netstandard2.0\CreateTemplate.Business.AssemblyInfoInputs.cache
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\obj\Debug\netstandard2.0\CreateTemplate.Business.AssemblyInfo.cs
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\obj\Debug\netstandard2.0\CreateTemplate.Business.csproj.CopyComplete
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\obj\Debug\netstandard2.0\CreateTemplate.Business.dll
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Business\obj\Debug\netstandard2.0\CreateTemplate.Business.pdb

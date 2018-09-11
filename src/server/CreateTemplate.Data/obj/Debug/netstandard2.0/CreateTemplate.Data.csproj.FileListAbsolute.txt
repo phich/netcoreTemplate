@@ -1,0 +1,12 @@
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Data.deps.json
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Data.dll
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Data.pdb
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.csprojAssemblyReference.cache
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.csproj.CoreCompileInputs.cache
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.AssemblyInfoInputs.cache
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.AssemblyInfo.cs
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.dll
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.pdb
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Core.dll
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Core.pdb
+c:\users\optiplex 990\source\repos\CreateTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.csproj.CopyComplete
