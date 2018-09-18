@@ -4,6 +4,8 @@ using CreateTemplate.Api.Filters;
 using CreateTemplate.Api.ModelBinders;
 using CreateTemplate.Business.Identity;
 using CreateTemplate.Business.Services;
+using CreateTemplate.Business.Services.Interfaces;
+using CreateTemplate.Core.AppSettings;
 using CreateTemplate.Core.Configuration;
 using CreateTemplate.Core.Identity;
 
@@ -34,28 +36,30 @@ namespace CreateTemplate.Api
 
         public IConfigurationRoot Configuration { get; }
 
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddDbContext(Configuration.GetConnectionString("DbConnectionString"));
-            services.AddAutoMapper();
-            services.AddSwagger();
-            services.AddJwtIdentity(Configuration.GetSection(nameof(JwtConfiguration)));
+      public void ConfigureServices(IServiceCollection services)
+      {
+        services.AddDbContext(Configuration.GetConnectionString("DbConnectionString"));
+        services.AddAutoMapper();
+        services.AddSwagger();
+        services.AddJwtIdentity(Configuration.GetSection(nameof(JwtConfiguration)));
 
-            services.AddLogging(logBuilder => logBuilder.AddSerilog(dispose: true));
+        services.AddLogging(logBuilder => logBuilder.AddSerilog(dispose: true));
 
-            services.AddTransient<IUsersService, UsersService>();
-            services.AddTransient<IJwtFactory, JwtFactory>();
+        services.AddTransient<IUsersService, UsersService>();
+        services.AddTransient<IJwtFactory, JwtFactory>();
+        services.AddSingleton<IEmailSetting>(Configuration.GetSection("EmailConfiguration").Get<EmailSettings>());
+      
 
-            services.AddMvc(options =>
-            {
-                options.ModelBinderProviders.Insert(0, new OptionModelBinderProvider());
-                options.Filters.Add<ExceptionFilter>();
-                options.Filters.Add<ModelStateFilter>();
-            })
-            .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-        }
+    services.AddMvc(options =>
+          {
+            options.ModelBinderProviders.Insert(0, new OptionModelBinderProvider());
+            options.Filters.Add<ExceptionFilter>();
+            options.Filters.Add<ModelStateFilter>();
+          })
+          .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+      }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, ApplicationDbContext dbContext)
+      public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, ApplicationDbContext dbContext)
         {
             if (env.IsDevelopment())
             {

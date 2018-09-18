@@ -1,22 +1,20 @@
-﻿using AutoMapper;
-using CreateTemplate.Business.Extensions;
-using CreateTemplate.Business;
-using CreateTemplate.Business.Identity;
-using CreateTemplate.Business.Models;
-using CreateTemplate.Business.Services;
-using CreateTemplate.Data.Entities;
-using Microsoft.AspNetCore.Identity;
-using Optional;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using AutoMapper;
+using CreateTemplate.Business.Extensions;
+using CreateTemplate.Business.Models;
+using CreateTemplate.Business.Services.Interfaces;
 using CreateTemplate.Core;
 using CreateTemplate.Core.Identity;
+using CreateTemplate.Data.Entities;
+using Microsoft.AspNetCore.Identity;
+using Optional;
 
 namespace CreateTemplate.Business.Services
 {
-    public class UsersService : IUsersService
+  public class UsersService : IUsersService
     {
         public UsersService(
             UserManager<User> userManager,

@@ -3,7 +3,7 @@ using CreateTemplate.Business.Models;
 using CreateTemplate.Core;
 using Optional;
 
-namespace CreateTemplate.Business.Services
+namespace CreateTemplate.Business.Services.Interfaces
 {
     public interface IUsersService
     {
