@@ -4,3 +4,9 @@
 
 /.vs/CreateTemplate/v15
 /.vs
+/src/server/CreateTemplate.Api/obj/
+/src/server/CreateTemplate.Business/obj/
+/src/server/CreateTemplate.Core/obj/
+/src/server/CreateTemplate.Data/obj/
+src/server/CreateTemplate.Api/.DS_Store
+
