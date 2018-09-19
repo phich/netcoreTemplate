@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Threading.Tasks;
 using CreateTemplate.Data.Contexts;
+using CreateTemplate.Data.Repositories;
+using CreateTemplate.Data.Repositories.Interfaces;
 
 
 namespace CreateTemplate.Data.UnitOfWork
 {
   public class UnitOfWork : IUnitOfWork
   {
+    private  IEmailTemplateRepository _emailTemplate;
  
     public UnitOfWork(ApplicationDbContext context)
     {
@@ -34,6 +37,8 @@ namespace CreateTemplate.Data.UnitOfWork
       return await _context.SaveChangesAsync();
     }
 
+    public IEmailTemplateRepository EmailTemplateRepository => _emailTemplate ?? (_emailTemplate = new EmailTemplateRepository(_context));
+
     public void Dispose()
     {
       Dispose(true);
@@ -53,6 +58,5 @@ namespace CreateTemplate.Data.UnitOfWork
       }
     }
 
-   
   }
 }

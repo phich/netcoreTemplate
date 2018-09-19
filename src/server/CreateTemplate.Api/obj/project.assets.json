@@ -8479,7 +8479,7 @@
       ]
     },
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-      "sha512": "UMlN++q5qqzQ2HH+uOrKxN5fmBXMQDhrYkSaPJxhmyzfJaFPirrVr1raim/Ocq1psAZoB9+7JSAf0GDAX35wUg==",
+      "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
       "type": "package",
       "path": "microsoft.extensions.platformabstractions/1.1.0",
       "files": [
@@ -15454,38 +15454,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/hoanganh/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Optiplex 990\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Api/CreateTemplate.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Api\\CreateTemplate.Api.csproj",
       "projectName": "CreateTemplate.Api",
-      "projectPath": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Api/CreateTemplate.Api.csproj",
-      "packagesPath": "/Users/hoanganh/.nuget/packages/",
-      "outputPath": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Api/obj",
+      "projectPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Api\\CreateTemplate.Api.csproj",
+      "packagesPath": "C:\\Users\\Optiplex 990\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/hoanganh/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Optiplex 990\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Business/CreateTemplate.Business.csproj": {
-              "projectPath": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Business/CreateTemplate.Business.csproj"
+            "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Business\\CreateTemplate.Business.csproj": {
+              "projectPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Business\\CreateTemplate.Business.csproj"
             },
-            "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Core/CreateTemplate.Core.csproj": {
-              "projectPath": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Core/CreateTemplate.Core.csproj"
+            "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Core\\CreateTemplate.Core.csproj": {
+              "projectPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Core\\CreateTemplate.Core.csproj"
             }
           }
         }
@@ -15501,67 +15503,67 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
-            "version": "6.2.2"
+            "version": "[6.2.2, )"
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "3.2.0"
+            "version": "[3.2.0, )"
           },
           "Microsoft.ApplicationInsights.AspNetCore": {
             "target": "Package",
-            "version": "2.2.1"
+            "version": "[2.2.1, )"
           },
           "Microsoft.AspNetCore.All": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.1"
+            "version": "[2.1.1, )",
+            "autoReferenced": true
           },
           "Microsoft.AspNetCore.Authentication": {
             "target": "Package",
-            "version": "2.1.1"
+            "version": "[2.1.1, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "2.1.1"
+            "version": "[2.1.1, )"
           },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
-            "version": "2.1.1"
+            "version": "[2.1.1, )"
           },
-          "Optional": {
+          "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "4.0.0"
-          },
-          "Serilog.Extensions.Logging": {
-            "target": "Package",
-            "version": "2.0.2"
-          },
-          "Serilog.Extensions.Logging.File": {
-            "target": "Package",
-            "version": "1.1.0"
-          },
-          "StyleCop.Analyzers": {
-            "target": "Package",
-            "version": "1.0.2"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "2.4.0"
-          },
-          "System.IdentityModel.Tokens.Jwt": {
-            "target": "Package",
-            "version": "5.2.2"
+            "version": "[2.1.0, )",
+            "autoReferenced": true
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.0"
+            "version": "[2.1.0, )"
           },
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
+          "Optional": {
             "target": "Package",
-            "version": "2.1",
-            "autoReferenced": true
+            "version": "[4.0.0, )"
+          },
+          "Serilog.Extensions.Logging": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Serilog.Extensions.Logging.File": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "StyleCop.Analyzers": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[2.4.0, )"
+          },
+          "System.IdentityModel.Tokens.Jwt": {
+            "target": "Package",
+            "version": "[5.2.2, )"
           }
         },
         "imports": [

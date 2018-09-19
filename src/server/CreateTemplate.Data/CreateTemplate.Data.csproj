@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20180919033106_createDataBase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <AdditionalFiles Include="..\..\configuration\stylecop.json" Link="stylecop.json" />
   </ItemGroup>
 
@@ -18,6 +22,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CreateTemplate.Core\CreateTemplate.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer">
+      <HintPath>..\..\..\..\..\..\.nuget\packages\microsoft.entityframeworkcore.sqlserver\2.1.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>..\..\..\..\..\..\.nuget\packages\system.identitymodel.tokens.jwt\5.2.2\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

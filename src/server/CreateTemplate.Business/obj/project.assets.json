@@ -6768,35 +6768,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/hoanganh/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Optiplex 990\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Business/CreateTemplate.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Business\\CreateTemplate.Business.csproj",
       "projectName": "CreateTemplate.Business",
-      "projectPath": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Business/CreateTemplate.Business.csproj",
-      "packagesPath": "/Users/hoanganh/.nuget/packages/",
-      "outputPath": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Business/obj",
+      "projectPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Business\\CreateTemplate.Business.csproj",
+      "packagesPath": "C:\\Users\\Optiplex 990\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/hoanganh/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Optiplex 990\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Data/CreateTemplate.Data.csproj": {
-              "projectPath": "/Users/hoanganh/Desktop/CreateTemplate/src/server/CreateTemplate.Data/CreateTemplate.Data.csproj"
+            "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Data\\CreateTemplate.Data.csproj": {
+              "projectPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Data\\CreateTemplate.Data.csproj"
             }
           }
         }
@@ -6812,25 +6814,25 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
-            "version": "6.2.2"
-          },
-          "Optional": {
-            "target": "Package",
-            "version": "4.0.0"
-          },
-          "StyleCop.Analyzers": {
-            "target": "Package",
-            "version": "1.0.2"
-          },
-          "System.IdentityModel.Tokens.Jwt": {
-            "target": "Package",
-            "version": "5.2.2"
+            "version": "[6.2.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.3",
+            "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Optional": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "StyleCop.Analyzers": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "System.IdentityModel.Tokens.Jwt": {
+            "target": "Package",
+            "version": "[5.2.2, )"
           }
         },
         "imports": [

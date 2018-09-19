@@ -6,6 +6,7 @@ using System.Reflection;
 using System.Text;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
+
 namespace CreateTemplate.Core.Helpers
 {
     public static class EnumsHelper

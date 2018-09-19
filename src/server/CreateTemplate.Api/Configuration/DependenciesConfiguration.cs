@@ -34,7 +34,7 @@ namespace CreateTemplate.Api.Configuration
 
         public static void AddJwtIdentity(this IServiceCollection services, IConfigurationSection jwtConfiguration)
         {
-            services.AddIdentity<User, IdentityRole>()
+            services.AddIdentity<User, Role>()
                     .AddEntityFrameworkStores<ApplicationDbContext>();
 
             var signingKey = new SymmetricSecurityKey(
@@ -60,6 +60,7 @@ namespace CreateTemplate.Api.Configuration
             {
                 options.Issuer = jwtConfiguration[nameof(JwtConfiguration.Issuer)];
                 options.Audience = jwtConfiguration[nameof(JwtConfiguration.Audience)];
+              options.Subject = "abnc";
                 options.SigningCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);
             });
 

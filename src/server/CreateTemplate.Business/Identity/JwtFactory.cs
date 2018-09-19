@@ -21,11 +21,11 @@ namespace CreateTemplate.Business.Identity
             ThrowIfInvalidOptions(_jwtConfiguration);
         }
 
-        public string GenerateEncodedToken(string userId, string email, IEnumerable<Claim> additionalClaims)
+        public string GenerateEncodedToken(Guid userId, string email, IEnumerable<Claim> additionalClaims)
         {
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, userId),
+                new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, email),
                 new Claim(JwtRegisteredClaimNames.Jti, _jwtConfiguration.JtiGenerator()),
                 new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64),

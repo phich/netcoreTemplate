@@ -1677,7 +1677,8 @@
           "AutoMapper": "6.2.2",
           "Microsoft.IdentityModel.Tokens": "5.2.2",
           "Optional": "4.0.0",
-          "StyleCop.Analyzers": "1.0.2"
+          "StyleCop.Analyzers": "1.0.2",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.1.1.0"
         },
         "runtime": {
           "CreateTemplate.Core.dll": {}
@@ -1693,6 +1694,14 @@
         },
         "runtime": {
           "CreateTemplate.Data.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.ViewFeatures.Reference/2.1.1.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Mvc.ViewFeatures.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
         }
       }
     }
@@ -2683,6 +2692,11 @@
     },
     "CreateTemplate.Data/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.ViewFeatures.Reference/2.1.1.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

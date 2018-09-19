@@ -8,11 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <AdditionalFiles Include="..\..\configuration\stylecop.json" Link="stylecop.json" />
+    <Compile Remove="wwwroot\**" />
+    <Content Remove="wwwroot\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="wwwroot\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <AdditionalFiles Include="..\..\configuration\stylecop.json" Link="stylecop.json" />
   </ItemGroup>
 
   <ItemGroup>

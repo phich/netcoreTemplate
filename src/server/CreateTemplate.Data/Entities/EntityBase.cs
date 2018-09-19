@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using CreateTemplate.Data.Entities.Interface;
 
 namespace CreateTemplate.Data.Entities
 {
-   public class EntityBase
-    {
+  public class EntityBase : IEntityBase
+  {
     public EntityBase()
     {
       Id = Guid.NewGuid();
@@ -16,12 +17,10 @@ namespace CreateTemplate.Data.Entities
 
     [Required] public bool? IsActive { get; set; }
 
-    [Required] public DateTime CreateDate { get; set; }
-
-    public Guid? CreatedBy { get; set; }
-
-    [Required] public DateTime UpdateDate { get; set; }
-
-    [Required] public bool IsDelete { get; set; }
+    [Required] public Guid CreatedBy { get; set; }
+    [Required] public Guid UpdatedBy { get; set; }
+    [Required] public DateTime CreatedDate { get; set; }
+    [Required] public DateTime UpdatedDate { get; set; }
+    [Required] public bool IsDeleted { get; set; }
   }
 }

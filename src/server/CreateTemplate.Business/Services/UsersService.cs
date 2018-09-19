@@ -32,7 +32,7 @@ namespace CreateTemplate.Business.Services
 
         public async Task<Option<JwtModel, Error>> Login(LoginUserModel model)
         {
-            var loginResult = await (await UserManager.FindByEmailAsync(model.Email))
+          var loginResult = await (await UserManager.FindByEmailAsync(model.Email))
                 .SomeNotNull()
                 .FilterAsync(async user => await UserManager.CheckPasswordAsync(user, model.Password));
 

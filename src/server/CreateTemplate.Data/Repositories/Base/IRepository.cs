@@ -10,7 +10,8 @@ namespace CreateTemplate.Data.Repositories.Base
   {
     void Add(T entity);
     void Update(T entity);
-    void Delete(T entity);
+    void Delete(Guid id);
+   
     Task<T> GetById(Guid id);
     IQueryable<T> GetAll();
   }

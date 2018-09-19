@@ -49,7 +49,7 @@ namespace CreateTemplate.Business.Services
           emailMessage.From = new MailAddress(_emailSetting.SmtpEmailForm);
           emailMessage.Subject = email.Subject;
           emailMessage.Body = email.Body;
-          emailMessage.Attachments.Add(new Attachment());
+          //emailMessage.Attachments.Add(new Attachment());
           await client.SendMailAsync(emailMessage);
         }
       }

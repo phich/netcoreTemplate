@@ -10,7 +10,7 @@ using CreateTemplate.Core.Configuration;
 using CreateTemplate.Core.Identity;
 
 using CreateTemplate.Data.Contexts;
-
+using CreateTemplate.Data.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -47,10 +47,10 @@ namespace CreateTemplate.Api
 
         services.AddTransient<IUsersService, UsersService>();
         services.AddTransient<IJwtFactory, JwtFactory>();
+        services.AddTransient<IEmailTemplatesService, EmailTemplateService>();
+        services.AddTransient<IUnitOfWork, HttpUnitOfWork>();
         services.AddSingleton<IEmailSetting>(Configuration.GetSection("EmailConfiguration").Get<EmailSettings>());
-      
-
-    services.AddMvc(options =>
+       services.AddMvc(options =>
           {
             options.ModelBinderProviders.Insert(0, new OptionModelBinderProvider());
             options.Filters.Add<ExceptionFilter>();
