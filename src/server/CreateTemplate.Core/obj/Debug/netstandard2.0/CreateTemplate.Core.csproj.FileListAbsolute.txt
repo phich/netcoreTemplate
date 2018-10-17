@@ -7,3 +7,11 @@
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Core/obj/Debug/netstandard2.0/CreateTemplate.Core.dll
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Core/obj/Debug/netstandard2.0/CreateTemplate.Core.pdb
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Core/obj/Debug/netstandard2.0/CreateTemplate.Core.csprojAssemblyReference.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Core\bin\Debug\netstandard2.0\CreateTemplate.Core.deps.json
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Core\bin\Debug\netstandard2.0\CreateTemplate.Core.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Core\bin\Debug\netstandard2.0\CreateTemplate.Core.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Core\obj\Debug\netstandard2.0\CreateTemplate.Core.csproj.CoreCompileInputs.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Core\obj\Debug\netstandard2.0\CreateTemplate.Core.AssemblyInfoInputs.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Core\obj\Debug\netstandard2.0\CreateTemplate.Core.AssemblyInfo.cs
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Core\obj\Debug\netstandard2.0\CreateTemplate.Core.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Core\obj\Debug\netstandard2.0\CreateTemplate.Core.pdb

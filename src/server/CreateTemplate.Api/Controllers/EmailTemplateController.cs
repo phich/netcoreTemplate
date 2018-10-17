@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using CreateTemplate.Business.Models;
 using CreateTemplate.Business.Services.Interfaces;
 using CreateTemplate.Core.Results.Gird;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace CreateTemplate.Api.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class EmailTemplateController : ApiController
     {
@@ -21,8 +23,15 @@ namespace CreateTemplate.Api.Controllers
         _emailTemplatesService = emailTemplatesService;
       }
 
-      // GET: api/<controller>
-        [HttpGet]
+    // GET: api/<controller>
+    /// <summary>
+    /// get all email template
+    /// </summary>
+    /// <param name="gridModel"></param>
+    /// <returns></returns>
+    ///   /// <response code="200">The model was bound successfully.</response>
+    /// <response code="401">Unauthorized</response>
+    [HttpGet]
         public IActionResult Search(GridModel gridModel)
         {
           var lstEmail = _emailTemplatesService.Search(gridModel);

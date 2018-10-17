@@ -8030,28 +8030,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/hoanganh/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Optiplex 990\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Core/CreateTemplate.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Core\\CreateTemplate.Core.csproj",
       "projectName": "CreateTemplate.Core",
-      "projectPath": "/Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Core/CreateTemplate.Core.csproj",
-      "packagesPath": "/Users/hoanganh/.nuget/packages/",
-      "outputPath": "/Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Core/obj",
+      "projectPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Core\\CreateTemplate.Core.csproj",
+      "packagesPath": "C:\\Users\\Optiplex 990\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Optiplex 990\\source\\repos\\netcoreTemplate\\src\\server\\CreateTemplate.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/hoanganh/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Optiplex 990\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8070,29 +8072,29 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
-            "version": "6.2.2"
-          },
-          "Microsoft.IdentityModel.Tokens": {
-            "target": "Package",
-            "version": "5.2.2"
-          },
-          "Optional": {
-            "target": "Package",
-            "version": "4.0.0"
-          },
-          "StyleCop.Analyzers": {
-            "target": "Package",
-            "version": "1.0.2"
+            "version": "[6.2.2, )"
           },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
-            "version": "2.1.2"
+            "version": "[2.1.2, )"
+          },
+          "Microsoft.IdentityModel.Tokens": {
+            "target": "Package",
+            "version": "[5.2.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.3",
+            "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Optional": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "StyleCop.Analyzers": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           }
         },
         "imports": [

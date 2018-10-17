@@ -20,28 +20,6 @@ c:/users/optiplex 990/source/repos/CreateTemplate/src/server/CreateTemplate.Api/
 c:/users/optiplex 990/source/repos/CreateTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.csproj.CopyComplete
 c:/users/optiplex 990/source/repos/CreateTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.dll
 c:/users/optiplex 990/source/repos/CreateTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.pdb
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.csprojAssemblyReference.cache
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.csproj.CoreCompileInputs.cache
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.RazorAssemblyInfo.cache
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.RazorAssemblyInfo.cs
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.AssemblyInfoInputs.cache
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.AssemblyInfo.cs
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.dll
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.pdb
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.deps.json
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.runtimeconfig.json
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.runtimeconfig.dev.json
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.dll
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.pdb
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.Documentation.xml
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Business.dll
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Core.dll
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Data.dll
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Business.pdb
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Core.pdb
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Data.pdb
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.RazorTargetAssemblyInfo.cache
-C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.csproj.CopyComplete
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.deps.json
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.runtimeconfig.json
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Api/bin/Debug/netcoreapp2.1/CreateTemplate.Api.runtimeconfig.dev.json
@@ -64,3 +42,25 @@ C:/Users/Optiplex 990/source/repos/netcoreTemplate/src/server/CreateTemplate.Api
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.csproj.CopyComplete
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.dll
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Api/obj/Debug/netcoreapp2.1/CreateTemplate.Api.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.csproj.CoreCompileInputs.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.RazorAssemblyInfo.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.RazorAssemblyInfo.cs
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.AssemblyInfoInputs.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.AssemblyInfo.cs
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Api.deps.json
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Api.runtimeconfig.json
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Api.runtimeconfig.dev.json
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Api.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Api.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Api.Documentation.xml
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Business.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Core.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Data.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Business.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Core.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\bin\Debug\netcoreapp2.1\CreateTemplate.Data.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.csproj.CopyComplete
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Api\obj\Debug\netcoreapp2.1\CreateTemplate.Api.csprojAssemblyReference.cache

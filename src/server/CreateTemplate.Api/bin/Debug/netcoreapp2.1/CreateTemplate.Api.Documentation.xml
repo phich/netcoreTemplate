@@ -4,6 +4,15 @@
         <name>CreateTemplate.Api</name>
     </assembly>
     <members>
+        <member name="M:CreateTemplate.Api.Controllers.EmailTemplateController.Search(CreateTemplate.Core.Results.Gird.GridModel)">
+            <summary>
+            get all email template
+            </summary>
+            <param name="gridModel"></param>
+            <returns></returns>
+              /// <response code="200">The model was bound successfully.</response>
+            <response code="401">Unauthorized</response>
+        </member>
         <member name="M:CreateTemplate.Api.Controllers.OptionController.Get(Optional.Option{System.String},Optional.Option{System.Int32},Optional.Option{System.Boolean})">
             <summary>
             Demonstrates the Option model binding with query string parameters. Cannot be tested from the Swagger UI.

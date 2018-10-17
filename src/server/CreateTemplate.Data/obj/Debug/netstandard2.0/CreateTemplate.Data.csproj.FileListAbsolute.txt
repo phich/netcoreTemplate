@@ -13,3 +13,18 @@
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Data/obj/Debug/netstandard2.0/CreateTemplate.Data.csproj.CopyComplete
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Data/obj/Debug/netstandard2.0/CreateTemplate.Data.dll
 /Users/hoanganh/Documents/project/netcoreTemplate/src/server/CreateTemplate.Data/obj/Debug/netstandard2.0/CreateTemplate.Data.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Data.deps.json
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Data.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Data.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Core.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\CreateTemplate.Core.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.csprojAssemblyReference.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.csproj.CoreCompileInputs.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.AssemblyInfoInputs.cache
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.AssemblyInfo.cs
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.csproj.CopyComplete
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.dll
+C:\Users\Optiplex 990\source\repos\netcoreTemplate\src\server\CreateTemplate.Data\obj\Debug\netstandard2.0\CreateTemplate.Data.pdb
