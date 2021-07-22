@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CreateTemplate.Api.Configuration;
 using CreateTemplate.Api.Filters;
+using CreateTemplate.Api.Mappings;
 using CreateTemplate.Api.ModelBinders;
 using CreateTemplate.Business.Identity;
 using CreateTemplate.Business.Services;
@@ -8,7 +9,6 @@ using CreateTemplate.Business.Services.Interfaces;
 using CreateTemplate.Core.AppSettings;
 using CreateTemplate.Core.Configuration;
 using CreateTemplate.Core.Identity;
-
 using CreateTemplate.Data.Contexts;
 using CreateTemplate.Data.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
@@ -19,6 +19,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 
+// using Serilog;
+
 namespace CreateTemplate.Api
 {
     public class Startup
@@ -27,8 +29,8 @@ namespace CreateTemplate.Api
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddJsonFile("appsettings.json", false, true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", true)
                 .AddEnvironmentVariables();
 
             Configuration = builder.Build();
@@ -36,47 +38,39 @@ namespace CreateTemplate.Api
 
         public IConfigurationRoot Configuration { get; }
 
-      public void ConfigureServices(IServiceCollection services)
-      {
-        services.AddDbContext(Configuration.GetConnectionString("DbConnectionString"));
-        services.AddAutoMapper();
-        services.AddSwagger();
-        services.AddJwtIdentity(Configuration.GetSection(nameof(JwtConfiguration)));
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddDbContext(Configuration.GetConnectionString("DbConnectionString"));
+            services.AddAutoMapper(config => config.AddProfile<UsersMapping>());
+            services.AddSwagger();
+            services.AddJwtIdentity(Configuration.GetSection(nameof(JwtConfiguration)));
+            services.AddLogging(logBuilder => logBuilder.AddSerilog(dispose: true));
+            services.AddTransient<IUsersService, UsersService>();
+            services.AddTransient<IJwtFactory, JwtFactory>();
+            services.AddTransient<IEmailTemplatesService, EmailTemplateService>();
+            services.AddTransient<IUnitOfWork, HttpUnitOfWork>();
+            services.AddSingleton<IEmailSetting>(Configuration.GetSection("EmailConfiguration").Get<EmailSettings>());
+            services.AddMvc(options =>
+                {
+                    options.ModelBinderProviders.Insert(0, new OptionModelBinderProvider());
+                    options.Filters.Add<ExceptionFilter>();
+                    options.Filters.Add<ModelStateFilter>();
+                })
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+        }
 
-        services.AddLogging(logBuilder => logBuilder.AddSerilog(dispose: true));
-
-        services.AddTransient<IUsersService, UsersService>();
-        services.AddTransient<IJwtFactory, JwtFactory>();
-        services.AddTransient<IEmailTemplatesService, EmailTemplateService>();
-        services.AddTransient<IUnitOfWork, HttpUnitOfWork>();
-        services.AddSingleton<IEmailSetting>(Configuration.GetSection("EmailConfiguration").Get<EmailSettings>());
-       services.AddMvc(options =>
-          {
-            options.ModelBinderProviders.Insert(0, new OptionModelBinderProvider());
-            options.Filters.Add<ExceptionFilter>();
-            options.Filters.Add<ModelStateFilter>();
-          })
-          .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-      }
-
-      public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, ApplicationDbContext dbContext)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory,
+            ApplicationDbContext dbContext)
         {
             if (env.IsDevelopment())
-            {
                 dbContext.Database.EnsureCreated();
-            }
             else
-            {
                 app.UseHsts();
-            }
-
             loggerFactory.AddLogging(Configuration.GetSection("Logging"));
-
             app.UseHttpsRedirection();
             app.UseSwagger("My Web API.");
             app.UseStaticFiles();
             app.UseAuthentication();
-            app.UseMvc();
         }
     }
 }

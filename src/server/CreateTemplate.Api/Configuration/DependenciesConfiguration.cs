@@ -6,14 +6,16 @@ using System.Linq;
 using CreateTemplate.Core.Configuration;
 using CreateTemplate.Data.Contexts;
 using CreateTemplate.Data.Entities;
-
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+
+// using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace CreateTemplate.Api.Configuration
@@ -85,15 +87,10 @@ namespace CreateTemplate.Api.Configuration
         {
             services.AddSwaggerGen(setup =>
             {
-                setup.SwaggerDoc("v1", new Info { Title = "CreateTemplate.Api", Version = "v1" });
+                setup.SwaggerDoc("v1", new OpenApiInfo(){ Title = "CreateTemplate.Api", Version = "v1" });
                 setup.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "CreateTemplate.Api.Documentation.xml"));
-
-                setup.AddSecurityDefinition("Bearer", new ApiKeyScheme { In = "header", Description = "Enter 'Bearer {token}' (don't forget to add 'bearer') into the field below.", Name = "Authorization", Type = "apiKey" });
-
-                setup.AddSecurityRequirement(new Dictionary<string, IEnumerable<string>>
-                {
-                    { "Bearer", Enumerable.Empty<string>() },
-                });
+                setup.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme() { In = ParameterLocation.Header, Description = "Enter 'Bearer {token}' (don't forget to add 'bearer') into the field below.", Name = "Authorization", Type = SecuritySchemeType.ApiKey });
+                setup.AddSecurityRequirement(new OpenApiSecurityRequirement());
             });
         }
     }

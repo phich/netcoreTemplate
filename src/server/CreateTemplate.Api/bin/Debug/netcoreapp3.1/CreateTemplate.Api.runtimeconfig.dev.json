@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Crossian\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Crossian\\.nuget\\packages"
+    ]
+  }
+}
